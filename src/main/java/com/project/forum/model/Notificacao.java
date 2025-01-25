@@ -30,8 +30,8 @@ public class Notificacao {
 
     // Sujeito a alteração de Resposta > Comentario
     @ManyToOne
-    @JoinColumn(name = "id_resposta")
-    private Resposta resposta;
+    @JoinColumn(name = "id_comentario")
+    private Comentario comentario;
 
     // Define data atual
     public Notificacao() {

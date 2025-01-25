@@ -33,7 +33,7 @@ public class Usuario {
    private String bio;
 
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Comentario> comentarios;
+    private List<Comentario> comentario;
 
     // Adicionado
     // Relacionamento muitos para muitos com notificações
